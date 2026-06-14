@@ -2,7 +2,7 @@ package Mundial;
 
 public interface Jugable {
 	
-	void jugarPartidos();
+	void jugarPartido();
 	void mostrarResultados();
 
 }

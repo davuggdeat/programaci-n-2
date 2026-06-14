@@ -1,0 +1,29 @@
+package Mundial;
+
+public class Grupo {
+
+    private String nombre;
+    private String[] paises;
+
+    public Grupo(String nombre, String[] paises) {
+        this.nombre = nombre;
+        this.paises = paises;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String[] getPaises() {
+        return paises;
+    }
+
+    public void mostrarGrupo() {
+
+        System.out.println("===== GRUPO " + nombre + " =====");
+
+        for(String pais : paises) {
+            System.out.println("- " + pais);
+        }
+    }
+}
